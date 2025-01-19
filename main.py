@@ -55,7 +55,7 @@ def main():
         st.session_state[MESSAGES] = []
 
     if OPENAI_MODEL not in st.session_state:
-        st.session_state[OPENAI_MODEL] = "gpt-3.5-turbo"
+        st.session_state[OPENAI_MODEL] = "gpt-4o-mini"
 
     if MESSAGES not in st.session_state or not st.session_state[MESSAGES]:
         st.session_state[MESSAGES] = [
